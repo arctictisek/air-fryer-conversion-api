@@ -1,0 +1,19 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: air-fryer-conversion-api
+    version: 0.0.1-SNAPSHOT
+
+springdoc:
+  swagger-ui:
+    enabled: false
+  api-docs:
+    enabled: true
+    path: /api/docs
+
+logging:
+  level:
+    com.fryconvert.airfryerconversion: INFO
+    org.springframework.web: DEBUG
